@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: Sitefund
+url: "https://exospc.github.io"
 baseurl: /sitefund
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -18,7 +18,7 @@ author:
 social:
   name: Hydra Template
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - https://github.com/ExosPC
 
 # -----
 # Build
