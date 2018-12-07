@@ -6,19 +6,21 @@ pricing_table:
   - name: Monthly
     color: "#4a4a4a"
     features:
-      - text: $1.20 per month
+      - text: $2 per month
         highlight: true
+      - text: 3 month free trial
+        highlight: false
       - text: Ad-free on thousands of websites
         highlight: false
       - text: Cancel anytime
         highlight: false
     call_to_action:
       link: /sitefund
-      text: Subscribe Now
+      text: Start Trial
   - name: Yearly
     color: "#4a4a4a"
     features:
-      - text: $12 per year
+      - text: $20 per year ($1.67 per month)
         highlight: true
       - text: Pre-pay and save
         highlight: false
@@ -34,10 +36,6 @@ faq:
     answer: Credit cards including MasterCard, Visa or American Express.
   - question: Can I change my plan at a later time?
     answer: Yes, you can upgrade and downgrade your plan at anytime.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="#">john@business.com</a>.
 ---
 <div class="plans">
 	{% for plan in page.pricing_table %}
